@@ -1,0 +1,56 @@
+
+The 64 bit serial number will actually be 1 byte (highest order byte) of source ID
+followed by 56 bits of true serial number.  The source ID will be interpreted as:
+
+bit 7:    0 - power spectra, 1 - pure ADC sample
+bit 6:    0 - single beam, 1 - multi-beam
+bit 5-1:  5 bits, 32 values for beam id.
+          multi-beam: 1-19 (I reserved number 0)
+bit 0:    ADC data: polarization
+          spectra: 0 - power term, 1 - cross term
+
+The "FRB" format will be:
+64 bits of packet serial number followed by 
+a dual pol interleaved power spectra in the form of
+    two 8 bit bins from the pol 0 spectrum followed by 
+    two 8 bit bins from the pol 1 spectrum followed by  
+    two 8 bit bins from the pol 0 spectrum,
+    and so on, up to the packet size (with one 4k dual pol
+    spectrum spanning 2 packets).
+
+For the multibeam receiver, each ROACH2 are splitted into 2 equal parts, one part serve one beam,
+in one mezzanine card(contains 4 port), port 0 for pulsar spectrum AA and BB, port 1 for Re(AB*) and Im(A*B),
+port 2 for polarization 0 ADC raw capture, and port 3 for polarization 1 ADC.
+
+In each pulsar spectrum payload, one spectral bin is in 8 bit, unsigned or signed,
+dual pols are interleaved as in simulink model:
+pol0 pol0 pol1 pol1 ...
+2 pol0 than 2 pol1 than 2 pol0 than 2 pol1 ...
+
+The ADC payload should be in the same order as captured.
+
+
+3. near line rate udp packet
+
+I also suffering packet lost in a long time.
+Now I'm using below method to minimize the effect, besides using 4k packet size:
+    1) 1 receive thread running on 1 CPU core serve 1 10GbE link
+    2) free the CPU core used for receiving udp packets from operation system scheduling,
+       and explicit pin the receiving thread to their CPU core. To do so, append these parameters
+       into linux kernel                         commandline, e.g. for core id 2,3,4,5,6,7,8,9
+            isolcpus=2-9 nohz_full=2-9 rcu_nocbs=2-9
+       For details of using these parameter and more optimizations, please refer to linux kernel
+       document and DPDK document
+     3) make sure the CPU cores running receive thread and the PCIe link of ethernet card
+        are in the same NUMA node
+     4) use hugepage for receive thread FIFO to avoid too many page fault
+This way, I can achieve almost 0 packet lost in pure packet receive test.
+But when add GPU computing workload, there are many packet lost at beginning several seconds
+and fall into below 1ppm later. I haven't found out what cause this problem.
+
+The other way for this issue is entirely bypass linux kernel TCP/IP stack
+and do all the work in userland by using DPDK. But using DPDK require a steep learning curve.
+
+
+iptables -F -t raw
+iptables -L -v -t raw

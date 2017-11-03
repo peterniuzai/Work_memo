@@ -1,0 +1,436 @@
+Listening on 10.10.12.35:10000 
+Filename  /data0/data_oct-8-2017/data_2017-10-08_22-47-18_839481363
+acq: Starting with PktNo 174298272
+Time: 2017-10-08_22:48:07
+Cumulative  Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_22:48:56
+Cumulative  Stats: Total/Got/Lost/Bad  36864/36864/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_22:49:45
+Cumulative  Stats: Total/Got/Lost/Bad  55296/55296/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_22:50:34
+Cumulative  Stats: Total/Got/Lost/Bad  73728/73728/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_22:51:24
+Cumulative  Stats: Total/Got/Lost/Bad  92160/92160/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_22:52:13
+Cumulative  Stats: Total/Got/Lost/Bad  110592/110592/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_22:53:02
+Cumulative  Stats: Total/Got/Lost/Bad  129024/129024/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_22:53:51
+Cumulative  Stats: Total/Got/Lost/Bad  147456/147456/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_22:54:40
+Cumulative  Stats: Total/Got/Lost/Bad  165888/165888/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_22:55:29
+Cumulative  Stats: Total/Got/Lost/Bad  184320/184320/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_22:56:18
+Cumulative  Stats: Total/Got/Lost/Bad  202752/202752/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_22:57:07
+Cumulative  Stats: Total/Got/Lost/Bad  221184/221184/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_22:57:56
+Cumulative  Stats: Total/Got/Lost/Bad  239616/239616/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_22:58:45
+Cumulative  Stats: Total/Got/Lost/Bad  258048/258048/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_22:59:34
+Cumulative  Stats: Total/Got/Lost/Bad  276480/276480/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:00:23
+Cumulative  Stats: Total/Got/Lost/Bad  294912/294912/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:01:13
+Cumulative  Stats: Total/Got/Lost/Bad  313344/313344/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:02:02
+Cumulative  Stats: Total/Got/Lost/Bad  331776/331776/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:02:52
+Cumulative  Stats: Total/Got/Lost/Bad  331776/350208/0/0
+Differential Stats: Total/Got/Lost/Bad  0/18432/0/0
+Cummlative/Differental Rate:        1.47/1.44       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/-nan      
+Time: 2017-10-08_23:03:41
+Cumulative  Stats: Total/Got/Lost/Bad  368966/368640/326/0
+Differential Stats: Total/Got/Lost/Bad  37190/18432/326/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.01      
+Time: 2017-10-08_23:04:30
+Cumulative  Stats: Total/Got/Lost/Bad  387398/387072/326/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:05:19
+Cumulative  Stats: Total/Got/Lost/Bad  405830/405504/326/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:06:08
+Cumulative  Stats: Total/Got/Lost/Bad  424262/423936/326/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:06:57
+Cumulative  Stats: Total/Got/Lost/Bad  442694/442368/326/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:07:46
+Cumulative  Stats: Total/Got/Lost/Bad  461126/460800/326/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:08:35
+Cumulative  Stats: Total/Got/Lost/Bad  479558/479232/326/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:09:24
+Cumulative  Stats: Total/Got/Lost/Bad  497990/497664/326/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:10:13
+Cumulative  Stats: Total/Got/Lost/Bad  516422/516096/326/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:11:02
+Cumulative  Stats: Total/Got/Lost/Bad  534854/534528/326/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:11:52
+Cumulative  Stats: Total/Got/Lost/Bad  553286/552960/326/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:12:41
+Cumulative  Stats: Total/Got/Lost/Bad  571718/571392/326/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:13:30
+Cumulative  Stats: Total/Got/Lost/Bad  590150/589824/326/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Listening on 10.10.12.35:10000 
+Filename  /data0/data_oct-8-2017/data_2017-10-08_23-16-14_500986667
+acq: Starting with PktNo 174950013
+Time: 2017-10-08_23:17:03
+Cumulative  Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:17:52
+Cumulative  Stats: Total/Got/Lost/Bad  36864/36864/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:18:41
+Cumulative  Stats: Total/Got/Lost/Bad  55296/55296/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:19:30
+Cumulative  Stats: Total/Got/Lost/Bad  73728/73728/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:20:19
+Cumulative  Stats: Total/Got/Lost/Bad  92160/92160/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:21:08
+Cumulative  Stats: Total/Got/Lost/Bad  110592/110592/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:21:57
+Cumulative  Stats: Total/Got/Lost/Bad  129024/129024/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:22:46
+Cumulative  Stats: Total/Got/Lost/Bad  147456/147456/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:23:35
+Cumulative  Stats: Total/Got/Lost/Bad  165888/165888/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:24:25
+Cumulative  Stats: Total/Got/Lost/Bad  184320/184320/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:25:14
+Cumulative  Stats: Total/Got/Lost/Bad  202752/202752/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:26:03
+Cumulative  Stats: Total/Got/Lost/Bad  221184/221184/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:26:52
+Cumulative  Stats: Total/Got/Lost/Bad  239616/239616/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:27:41
+Cumulative  Stats: Total/Got/Lost/Bad  258048/258048/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:28:30
+Cumulative  Stats: Total/Got/Lost/Bad  276480/276480/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:29:19
+Cumulative  Stats: Total/Got/Lost/Bad  294912/294912/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:30:08
+Cumulative  Stats: Total/Got/Lost/Bad  313344/313344/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:30:57
+Cumulative  Stats: Total/Got/Lost/Bad  331776/331776/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:31:46
+Cumulative  Stats: Total/Got/Lost/Bad  350208/350208/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:32:35
+Cumulative  Stats: Total/Got/Lost/Bad  368640/368640/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:33:25
+Cumulative  Stats: Total/Got/Lost/Bad  387072/387072/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:34:14
+Cumulative  Stats: Total/Got/Lost/Bad  405504/405504/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:35:03
+Cumulative  Stats: Total/Got/Lost/Bad  423936/423936/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:35:52
+Cumulative  Stats: Total/Got/Lost/Bad  442368/442368/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:36:41
+Cumulative  Stats: Total/Got/Lost/Bad  460800/460800/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:37:30
+Cumulative  Stats: Total/Got/Lost/Bad  479232/479232/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:38:19
+Cumulative  Stats: Total/Got/Lost/Bad  497664/497664/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:39:08
+Cumulative  Stats: Total/Got/Lost/Bad  516096/516096/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:39:57
+Cumulative  Stats: Total/Got/Lost/Bad  534528/534528/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:40:46
+Cumulative  Stats: Total/Got/Lost/Bad  552960/552960/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:41:35
+Cumulative  Stats: Total/Got/Lost/Bad  571392/571392/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:42:24
+Cumulative  Stats: Total/Got/Lost/Bad  589824/589824/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:43:14
+Cumulative  Stats: Total/Got/Lost/Bad  608256/608256/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:44:03
+Cumulative  Stats: Total/Got/Lost/Bad  626688/626688/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:44:52
+Cumulative  Stats: Total/Got/Lost/Bad  645120/645120/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:45:41
+Cumulative  Stats: Total/Got/Lost/Bad  663552/663552/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:46:30
+Cumulative  Stats: Total/Got/Lost/Bad  681984/681984/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:47:19
+Cumulative  Stats: Total/Got/Lost/Bad  700416/700416/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:48:08
+Cumulative  Stats: Total/Got/Lost/Bad  718848/718848/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:48:57
+Cumulative  Stats: Total/Got/Lost/Bad  737280/737280/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:49:46
+Cumulative  Stats: Total/Got/Lost/Bad  755712/755712/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:50:35
+Cumulative  Stats: Total/Got/Lost/Bad  774144/774144/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:51:24
+Cumulative  Stats: Total/Got/Lost/Bad  792576/792576/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:52:13
+Cumulative  Stats: Total/Got/Lost/Bad  811008/811008/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:53:03
+Cumulative  Stats: Total/Got/Lost/Bad  829440/829440/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:53:52
+Cumulative  Stats: Total/Got/Lost/Bad  847872/847872/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:54:41
+Cumulative  Stats: Total/Got/Lost/Bad  866304/866304/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:55:30
+Cumulative  Stats: Total/Got/Lost/Bad  884736/884736/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:56:19
+Cumulative  Stats: Total/Got/Lost/Bad  903168/903168/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:57:08
+Cumulative  Stats: Total/Got/Lost/Bad  921600/921600/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:57:57
+Cumulative  Stats: Total/Got/Lost/Bad  940032/940032/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:58:46
+Cumulative  Stats: Total/Got/Lost/Bad  958464/958464/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-08_23:59:35
+Cumulative  Stats: Total/Got/Lost/Bad  976896/976896/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      
+Time: 2017-10-09_00:00:24
+Cumulative  Stats: Total/Got/Lost/Bad  995328/995328/0/0
+Differential Stats: Total/Got/Lost/Bad  18432/18432/0/0
+Cummlative/Differental Rate:        1.47/1.47       (Mbytes/sec)
+Cummlative/Differental Loss:           0.00/0.00      

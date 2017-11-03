@@ -1,0 +1,46 @@
+http://leuschner.berkeley.edu:8080/top.htm?Currenttime=2017-05-19%2017:11:17
+
+
+ipcs -a | grep 80060002 # hashpipe memory clear
+ipcrm -m id
+ipcs --all
+sudo ipcrm -m 2195473
+
+ 1103  ipcrm --help 
+ 1104  ipcrm -m 2195473
+ 1105  sudo ipcrm -m 2195473
+ 1117  sudo ipcrm -m 2752537
+ 1161  history |grep ipcrm
+
+nch@crab:/data0/crab_data/June_26$ stat -c '%n %s' filename data_2017-06-26_18-03-33_121024023data_2017-06-26_18-03-33_121024023 755159040
+
+Vlaon synthiser
+
+valon_synth.SYNTH_A
+In [4]: v.get_frequency(valon_synth.SYNTH_A)
+Out[4]: 2100.0
+
+
+lspci | usb
+
+In [5]: import valon_synth
+
+In [6]: v=valon_synth.Synthesizer('/dev/ttyUSB0')
+
+In [7]: v.get_frequency(valon_synth.SYNTH_A)
+Out[7]: 2100.0
+v.get_rf_level(valon_synth.SYNTH_A)
+v.set_rf_level(valon_synth.SYNTH_A,-1)
+v.flash()(存进硬盘里)
+
+dmesg | grep usb
+
+sudo run
+ulimit -c
+ulimit -c unlimited --> core
+gdb hashpipe -c core
+
+
+cat make_cmd 
+cat /proc/cpuinfo 
+some old CPU might not have mavx command. 

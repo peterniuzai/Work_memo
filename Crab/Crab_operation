@@ -1,0 +1,191 @@
+Crabbers...
+
+Leuschner is back up, thanks to efforts by Frank and Bill.
+
+We are running on a new computer called heiles2 (the other is called
+heiles).
+
+Everthing is the same as it was EXCEPT we now use port 41 instead of
+port 31. This means:
+
+1. when you ssh into leuschner, use
+
+ 	alias sshl "ssh -XY radiolab@leuschner.berkeley.edu -p 41"
+
+2. when you access leuschner using VNC, use the statements
+
+     ssh -L 59XX:127.0.0.1:5901 -p 41 -N -f radiolab@leuschner.berkeley.edu
+
+     vncviewer localhost::59XX
+
+where XX is a number (see my email of May 18, added below)
+
+===========================
+
+We don't understand why the telescope stops. For now, we are imposing an
+upper limit on azimuth of 300 degrees. This will reduce the hour angle
+coverage towards the west. When we figure out what's going on, we
+will remove this restriction.
+
+The disk area under /home/radiolab is blank -- that is, we have not
+transferred the files from heiles to the heiles2 computer for the
+radiolab account. if this is a problem, let me know and I'll do it today.
+
+--carl
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Carl Heiles   heiles@astro.berkeley.edu
+Professor of the Graduate School
+VOICE PHONE: 510 280 8099
+Campbell Hall
+Astronomy Department
+University of California
+Berkeley, CA 94720-3411
+FAX: 510 642 3411
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+
+On Thu, 18 May 2017, Carl Heiles wrote:
+
+>
+>
+> The computer we use at Leuschner is named 'heiles' and resides on the
+> LAN at Leuschner. ssh in as the user radiolab
+>
+> 	ssh -XY radiolab@leuschner.berkeley.edu -p 31
+>
+> (PW is Cud4b4ck) which gives the prompt
+>
+> 	radiolab@heiles:~>
+>
+> As your home directory at Leuschner, use radiolab/crabfast.
+>
+> 	radiolab@heiles:~> cd crabfast
+>
+> and you have the prompt
+>
+> 	radiolab@heiles:~/crabfast>
+>
+> This  is where the text files that list telescope position, etc,
+> reside. They have names like follow_crab_20170106.txt, where the number
+> is the UT date yyyymmdd covered by that file.
+>
+> ---------------------------------------------------
+>
+> --DOWNLOAD TIGHTVNC:
+> It's best to download tightvnc from www.tightvnc.com.
+>
+> Always run the telescope from the Leuschner's VNC window.
+>
+> --TO ACCESS THE VNC WINDOW FROM YOUR OWN COMPUTER:
+>
+> first, establish the connection. In principle, this ssh command need be
+> done only once.
+>
+>    ssh -L 59XX:127.0.0.1:5901 -p 31 -N -f radiolab@leuschner.berkeley.edu
+>
+> (PW is as above) Here XX is a number of your own choosing; it refers to
+> a port on your local machine. If it responds by saying
+>
+> 	'Address already in use'
+>
+> then choose a different number and try again. Once you find a number
+> that works, use it in subsequent connections. In practice, sometimes
+> repeated use of this number doesn't work and you need to do the ssh
+> command again with a different XX.
+>
+> Having done that first step, on all subsequent occasions access the
+> Leuschner/heiles VNC window with the command
+>
+> 	vncviewer localhost::59XX
+>
+> It will require a password; the VNC pw is crabfast.  Leuschner's VNC
+> window should pop up on your screen, and you can access and create
+> terminals on this window in the usual way. The function key F8 gives a
+> short menu of available actions, such as quitting the VNC viewer. By
+> default, the VNC viewer is in shared mode, which allows multiple users
+> to access the VNC window simultaneously.
+>
+> When you are finished and want to disconnect, use F8 or kill the VNC
+> terminal window with the mouse in the usual way.
+>
+> If the VNC server on the Leuschner computer has died (for example, if it
+> had to reboot), then ssh into leuschner/heiles and set up a new VNC
+> server:
+>
+> 	radiolab@heiles:~> vncserver
+>
+> it will respond:
+>
+> 	'Log file is /home/radiolab/.vnc/heiles.site:1.log' (or perhaps
+> 	a number different from 1); this is the VNC session number.  The
+> 	current VNC pw remains unchanged (crabfast)
+>
+> TO ACCESS THE VNC WINDOW WHEN YOU ARE PHYSICALLY AT LEUSCHNER: Log into
+> the heiles computer and type:
+>
+> 	radiolab@heiles:~> vncviewer localhost::5901
+>
+> ================================
+>
+> CONTROLLING THE LEUSCHNER TELESCOPE WITH IDL:
+>
+> use a terminal in the VNC window and start IDL:
+>
+> 	radiolab@heiles:~> idl
+>
+> it asks if you want windows. You don't, so hit return. It gives the
+> prompt
+>
+> 	IDL>
+>
+> --TO FIND WHERE THE TELESCOPE IS POINTING RIGHT NOW:
+> IDL> print, getaltaz()
+>
+> --TO SCAN THE FULL AZ RANGE AT ALTITUDE 20 DEGREES:
+> IDL> print, pointdish( az=0, alt=20)
+> IDL> print, pointdish( az=360)
+>
+> note: it prints '0' or '1'. '0' means everything is fine, '1' means an
+> error. pointing outside the limits gives an error. The allowable ranges
+> are:
+> 	alt = 13.0 to 85.0
+> 	az = -4.66 to 365.34
+> note: you can also go 'backwards':
+> IDL> print, pointdish( az=360, alt=50)
+> IDL> print, pointdish( az=0)
+>
+> --TO TRACK THE CRAB:
+> IDL> follow_crab
+>
+> --TO TRACK THE SUN:
+> IDL> follow_crab, /sun
+>
+> --TO TRACK THE PULSAR 0329, WITH RA = 03h 32m 59, Dec= +54° 34′ 44:
+> IDL> follow_crab, rasrc = ten(3,32,59), decsrc = ten(54,34,44)
+>
+> note: This program, follow_crab, tracks the specified source when it is
+> up and stows the telescope when it is down. It runs forever without
+> intervention.
+>
+> When you want to quit, type
+> 	q
+> and it will gracefully quit. You can also do CTRL-C.
+>
+> Then stow the telescope
+> IDL> stow
+>
+> and exit IDL
+> IDL> exit
+
+
+
+
+t = Time('2017-08-29T22:45:00', format = 'isot', scale = 'utc')
+get_sun(t)
+ c = SkyCoord(ra=158.27910486*u.degree, dec=9.11491537*u.degree)
+c.to_string('hmsdms')
+
+
