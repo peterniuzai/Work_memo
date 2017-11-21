@@ -14,21 +14,6 @@ sudo ipcrm -m 2195473
 
 nch@crab:/data0/crab_data/June_26$ stat -c '%n %s' filename data_2017-06-26_18-03-33_121024023data_2017-06-26_18-03-33_121024023 755159040
 
-Vlaon synthiser
-
-valon_synth.SYNTH_A
-In [4]: v.get_frequency(valon_synth.SYNTH_A)
-Out[4]: 2100.0
-
-
-lspci | usb
-
-In [5]: import valon_synth
-
-In [6]: v=valon_synth.Synthesizer('/dev/ttyUSB0')
-
-In [7]: v.get_frequency(valon_synth.SYNTH_A)
-Out[7]: 2100.0
 v.get_rf_level(valon_synth.SYNTH_A)
 v.set_rf_level(valon_synth.SYNTH_A,-1)
 v.flash()(存进硬盘里)
@@ -44,3 +29,25 @@ gdb hashpipe -c core
 cat make_cmd 
 cat /proc/cpuinfo 
 some old CPU might not have mavx command. 
+
+vi :
+grep 'hellow' -n *.c
+
+Substitude:
+:10,10 s/    //
+:a, /    //g
+
+
+
+Change right of all directory including sub-directory:
+chmod -R 777
+
+
+ps -ef| grep hashpipe
+Receiving UDP packet 2 problems:
+Address in use: hashpipe is not close.
+IP port is normal, but cannot receive packet: default MAC address from sender is FFFF... 
+{/tftpboot, xenial_root.x86_64} server construction 
+
+
+
